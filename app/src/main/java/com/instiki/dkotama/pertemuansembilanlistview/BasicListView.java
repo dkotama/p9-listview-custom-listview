@@ -22,5 +22,7 @@ public class BasicListView extends AppCompatActivity {
                 this, android.R.layout.simple_list_item_1, DataSource.CAR_STRINGS);
 
         basicListView.setAdapter(basicAdapter);
+
+
     }
 }

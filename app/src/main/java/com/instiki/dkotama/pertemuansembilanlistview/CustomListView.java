@@ -21,5 +21,7 @@ public class CustomListView extends AppCompatActivity {
         CustomArrayAdapter customAdapter = new CustomArrayAdapter(this, DataSource.CARS);
 
         customListView.setAdapter(customAdapter);
+
+
     }
 }
