@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/standard_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="@string/app_hello_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/iteration_btn"
+        android:text="@string/for_iteration_title"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/standard_padding"
+        android:text="@string/array_iterationsample"
+        android:id="@+id/array_result_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="@string/contoh_listview_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/listview_sample_btn"
+        android:text="@string/basic_listview_title"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/customlistview_btn"
+        android:text="@string/custom_listview_title"
+        android:layout_marginTop="@dimen/standard_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

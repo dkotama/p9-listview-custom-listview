@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PertemuanSembilanListView</string>
+    <string name="array_iterationsample">Hasil Iterasi Array</string>
+    <string name="app_hello_title">Pertemuan 9 - ListView</string>
+    <string name="for_iteration_title">ITERASI FOR</string>
+    <string name="contoh_listview_text">Contoh ListView</string>
+    <string name="basic_listview_title">BASIC LISTVIEW</string>
+    <string name="custom_listview_title">Custom Listview</string>
+</resources>
